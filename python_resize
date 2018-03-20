@@ -1,0 +1,25 @@
+#!/usr/bin/python
+
+# Resizes an image down by a factor of two.
+
+import sys
+from PIL import Image
+
+def resize(input_pathname, output_pathname):
+    input_image = Image.open(input_pathname)
+
+    input_size = input_image.size
+    output_size = (input_size[0]/2, input_size[1]/2)
+
+    output_image = input_image.resize(output_size, Image.ANTIALIAS)
+    output_image.save(output_pathname)
+
+def main():
+    if len(sys.argv) != 3:
+        sys.stderr.write("Usage: %s in.png out.png\n" % (sys.argv[0],))
+        sys.exit(1)
+
+    resize(sys.argv[1], sys.argv[2])
+
+main()
+
