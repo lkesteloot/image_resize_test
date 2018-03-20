@@ -1,4 +1,6 @@
 
+# Image resize test
+
 This repo compares various image-resizing tools to see which do a good job.
 Specifically, we want to know which properly handle
 [gamma](https://www.teamten.com/lawrence/graphics/gamma/) in 8-bit images.
@@ -37,4 +39,20 @@ flag:
 If you load this version and the small checkerboard into an image viewing
 program, squint, and switch back and forth, you'll see that they're about
 the same brightness.
+
+# License
+
+Copyright 2018 Lawrence Kesteloot
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
