@@ -40,6 +40,9 @@ If you load this version and the small checkerboard into an image viewing
 program, squint, and switch back and forth, you'll see that they're about
 the same brightness.
 
+Apparently
+[Photoshop is broken](http://www.kiransprojects.com/blog/2014/photoshop-blending-is-broken/) too.
+
 # License
 
 Copyright 2018 Lawrence Kesteloot

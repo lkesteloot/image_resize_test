@@ -6,7 +6,7 @@ import sys
 from PIL import Image
 
 def resize(input_pathname, output_pathname):
-    input_image = Image.open(input_pathname)
+    input_image = Image.open(input_pathname).convert("RGB")
 
     input_size = input_image.size
     output_size = (input_size[0]/2, input_size[1]/2)
